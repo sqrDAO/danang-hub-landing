@@ -80,7 +80,7 @@ document.querySelector('#app').innerHTML = `
            <!-- sqrDAO -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 90px;">
+               <img src="/assets/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 60px;">
              </div>
              <div class="partner-role-text">Managing Partner</div>
              <h3 class="partner-name-premium">sqrDAO</h3>
@@ -162,7 +162,7 @@ document.querySelector('#app').innerHTML = `
            <!-- DISSC -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/dissc.png" alt="DISSC" class="partner-logo-large" style="max-height: 90px;">
+               <img src="/assets/dissc.png" alt="DISSC" class="partner-logo-large" style="max-height: 60px;">
              </div>
              <div class="partner-role-text">Strategic Partner</div>
              <h3 class="partner-name-premium">DISSC</h3>
