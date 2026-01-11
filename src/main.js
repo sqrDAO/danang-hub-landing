@@ -6,6 +6,11 @@ document.querySelector('#app').innerHTML = `
       <div class="logo">
         <img src="/assets/logo-white-full.svg" alt="Da Nang Blockchain Hub" height="48">
       </div>
+      <button class="mobile-menu-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav class="nav">
         <ul class="nav-list">
           <li><a href="#about">About</a></li>
@@ -15,7 +20,7 @@ document.querySelector('#app').innerHTML = `
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="#contact" class="btn btn-primary">Join Us</a>
+      <a href="#contact" class="btn btn-primary join-us-btn">Join Us</a>
     </div>
   </header>
 
@@ -324,3 +329,25 @@ document.querySelector('#app').innerHTML = `
     </div>
   </footer>
 `
+
+// Mobile Menu Logic
+const mobileBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.querySelector('.nav');
+const navLinks = document.querySelectorAll('.nav-list a');
+
+if (mobileBtn) {
+  mobileBtn.addEventListener('click', () => {
+    mobileBtn.classList.toggle('active');
+    nav.classList.toggle('active');
+    document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+  });
+
+  // Close menu when clicking a link
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileBtn.classList.remove('active');
+      nav.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+}
