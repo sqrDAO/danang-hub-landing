@@ -318,9 +318,9 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="footer-column">
           <h4>Community</h4>
-          <a href="#">Twitter/X</a>
-          <a href="#">Telegram</a>
-          <a href="#">Discord</a>
+          <a href="https://www.facebook.com/profile.php?id=61576570201707" target="_blank">Facebook</a>
+          <a href="https://t.me/+7ycB8RxiZQY5MDNl" target="_blank">Telegram</a>
+          <a href="mailto:gm@sqrdao.com">Email</a>
         </div>
       </div>
     </div>
