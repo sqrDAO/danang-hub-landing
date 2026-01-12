@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
   <header class="header glass">
     <div class="container header-container">
       <div class="logo">
-        <img src="/assets/logo.svg" alt="Da Nang Blockchain Hub" height="48">
+        <img src="/assets/logo.svg" alt="Da Nang Blockchain Hub" height="64">
       </div>
       <button class="mobile-menu-btn" aria-label="Toggle Menu">
         <span></span>

@@ -150,17 +150,17 @@ button {
 @media (min-width: 1025px) {
   .header {
     padding: 0;
-    min-height: 50px;
+    min-height: 60px;
   }
   
   .header-container {
-    min-height: 50px;
+    min-height: 60px;
     padding-top: 0;
     padding-bottom: 0;
   }
   
   .logo img {
-    height: 40px;
+    height: 56px;
   }
 }
 
