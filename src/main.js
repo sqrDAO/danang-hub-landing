@@ -80,7 +80,7 @@ document.querySelector('#app').innerHTML = `
            <!-- sqrDAO -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 60px;">
+               <img src="/assets/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 45px;">
              </div>
              <div class="partner-role-text">Managing Partner</div>
              <h3 class="partner-name-premium">sqrDAO</h3>
