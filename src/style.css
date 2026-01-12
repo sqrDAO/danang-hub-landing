@@ -150,11 +150,17 @@ button {
 @media (min-width: 1025px) {
   .header {
     padding: 0;
-    min-height: 60px;
+    min-height: 50px;
   }
   
   .header-container {
-    min-height: 60px;
+    min-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .logo img {
+    height: 40px;
   }
 }
 
@@ -214,8 +220,8 @@ button {
 /* Adjust hero padding on desktop to account for smaller header */
 @media (min-width: 1025px) {
   .hero {
-    min-height: calc(100vh - 60px);
-    padding-top: calc(60px + 4rem);
+    min-height: calc(100vh - 50px);
+    padding-top: calc(50px + 4rem);
   }
 }
 
