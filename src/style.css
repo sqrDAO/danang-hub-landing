@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 1rem);
 }
 
 body {
@@ -140,7 +141,7 @@ button {
   left: 0;
   width: 100%;
   z-index: 103;
-  padding: var(--spacing-sm) 0;
+  padding: 0.25rem 0;
   min-height: var(--header-height);
   transition: var(--transition);
 }
@@ -149,7 +150,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: calc(var(--header-height) - var(--spacing-sm) * 2);
+  min-height: calc(var(--header-height) - 0.5rem);
 }
 
 .logo {
@@ -179,16 +180,23 @@ button {
 
 /* Hero */
 .hero {
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
-  padding-top: var(--header-height);
+  padding-top: calc(var(--header-height) + 6rem);
+  padding-bottom: 2rem;
   /* offset fixed header */
   background: radial-gradient(circle at center, rgba(124, 58, 237, 0.15) 0%, rgba(13, 13, 18, 0) 50%);
   position: relative;
   background-clip: padding-box;
+}
+
+.hero-container {
+  margin-top: 0;
+  padding-top: 2rem;
+  width: 100%;
 }
 
 .hero::before {
@@ -210,8 +218,10 @@ button {
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;
+  margin-top: 1.5rem;
   margin-bottom: var(--spacing-md);
   letter-spacing: -0.03em;
+  padding-top: 1rem;
 }
 
 .hero-subtitle {
@@ -738,7 +748,7 @@ textarea.form-field {
   :root {
     --spacing-xl: 3rem;
     --spacing-lg: 1.5rem;
-    --header-height: 80px;
+    --header-height: 70px;
   }
 
   .header-container {
@@ -778,11 +788,22 @@ textarea.form-field {
 
   /* Hero */
   .hero {
-    padding-top: calc(var(--header-height) + 1rem);
+    padding-top: calc(var(--header-height) + 6rem);
     min-height: auto;
     padding-bottom: var(--spacing-xl);
     overflow-x: hidden;
+    align-items: flex-start;
+    justify-content: center;
     /* Prevent horizontal overflow explicitly */
+  }
+  
+  .hero-container {
+    padding-top: 2rem;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero-title {
@@ -791,7 +812,9 @@ textarea.form-field {
     word-wrap: break-word;
     overflow-wrap: break-word;
     /* Ensure long words break */
-    padding: 0 var(--spacing-sm);
+    padding: 1.5rem var(--spacing-sm) 0;
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
     /* Add slight padding if needed */
   }
 
