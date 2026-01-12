@@ -146,6 +146,18 @@ button {
   transition: var(--transition);
 }
 
+/* Reduce header height and spacing on desktop for tighter header */
+@media (min-width: 1025px) {
+  .header {
+    padding: 0;
+    min-height: 60px;
+  }
+  
+  .header-container {
+    min-height: 60px;
+  }
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -197,6 +209,14 @@ button {
   margin-top: 0;
   padding-top: 2rem;
   width: 100%;
+}
+
+/* Adjust hero padding on desktop to account for smaller header */
+@media (min-width: 1025px) {
+  .hero {
+    min-height: calc(100vh - 60px);
+    padding-top: calc(60px + 4rem);
+  }
 }
 
 .hero::before {
