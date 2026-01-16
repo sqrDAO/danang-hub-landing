@@ -289,6 +289,10 @@ button {
   scroll-margin-top: calc(var(--header-height) + 1rem);
 }
 
+.calendar-section {
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
 .location-section {
   scroll-margin-top: calc(var(--header-height) + 1rem);
 }
@@ -324,7 +328,7 @@ button {
   color: var(--text-secondary);
 }
 
-/* Events Media Grid */
+/* Activities Media Grid */
 .media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -915,6 +919,17 @@ textarea.form-field {
 
   .map-container {
     height: 300px;
+  }
+
+  /* Calendar */
+  .calendar-container {
+    padding: 0 var(--spacing-md);
+  }
+
+  .calendar-container iframe {
+    width: 100% !important;
+    max-width: 100%;
+    height: 400px;
   }
 
   /* Footer */

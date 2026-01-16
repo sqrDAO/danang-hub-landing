@@ -15,8 +15,9 @@ document.querySelector('#app').innerHTML = `
         <ul class="nav-list">
           <li><a href="#about">About</a></li>
           <li><a href="#leadership">Leadership</a></li>
-          <li><a href="#events">Events</a></li>
+          <li><a href="#events">Activities</a></li>
           <li><a href="#location">Location</a></li>
+          <li><a href="#calendar">Calendar</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -188,7 +189,7 @@ document.querySelector('#app').innerHTML = `
 
     <section id="events" class="section events-section">
       <div class="container">
-        <h2 class="section-title text-center">Hub Activities</h2>
+        <h2 class="section-title text-center">Activities</h2>
         <p class="section-subtitle text-center">From intimate workshops to major hackathons, view our latest community moments.</p>
         
         <div class="media-grid">
@@ -278,6 +279,26 @@ document.querySelector('#app').innerHTML = `
       </div>
     </section>
 
+    <section id="calendar" class="section calendar-section">
+      <div class="container">
+        <h2 class="section-title text-center">Calendar</h2>
+        <p class="section-subtitle text-center">Stay up to date with our upcoming events and activities.</p>
+        
+        <div class="calendar-container" style="display: flex; justify-content: center; margin-top: var(--spacing-xl);">
+          <iframe
+            src="https://luma.com/embed/calendar/cal-iI3qdGqnHleunFJ/events"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 1px solid #bfcbda88; border-radius: 4px;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="section contact-section">
       <div class="container">
         <h2 class="section-title text-center">Get in Touch</h2>
@@ -313,8 +334,9 @@ document.querySelector('#app').innerHTML = `
           <h4>Hub</h4>
           <a href="#about">About</a>
           <a href="#leadership">Leadership</a>
-          <a href="#events">Events</a>
+          <a href="#events">Activities</a>
           <a href="#location">Location</a>
+          <a href="#calendar">Calendar</a>
         </div>
         <div class="footer-column">
           <h4>Community</h4>
