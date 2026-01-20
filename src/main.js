@@ -192,50 +192,221 @@ document.querySelector('#app').innerHTML = `
 
     <section id="events" class="section events-section">
       <div class="container">
-        <h2 class="section-title text-center">Activities</h2>
+        <h2 class="section-title text-center">Gallery</h2>
         <p class="section-subtitle text-center">From intimate workshops to major hackathons, view our latest community moments.</p>
         
-        <div class="media-grid">
-          <div class="media-item glass">
-            <img src="/assets/DSC07805.jpg" alt="Hub Event">
-            <div class="media-overlay">
+        <div class="gallery-grid">
+          <div class="gallery-item glass" data-index="0" data-src="/gallery/DSC07805.jpg" data-alt="Community Gatherings">
+            <img src="/gallery/DSC07805.jpg" alt="Community Gatherings" loading="lazy">
+            <div class="gallery-overlay">
               <span>Community Gatherings</span>
             </div>
           </div>
-          <div class="media-item glass">
-            <img src="/assets/TVN02532.jpg" alt="Workshop">
-            <div class="media-overlay">
+          <div class="gallery-item glass" data-index="1" data-src="/gallery/TVN02260.jpg" data-alt="Hub Event">
+            <img src="/gallery/TVN02260.jpg" alt="Hub Event" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Event</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="2" data-src="/gallery/TVN02295.jpg" data-alt="Community Event">
+            <img src="/gallery/TVN02295.jpg" alt="Community Event" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Community Event</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="3" data-src="/gallery/TVN02305.jpg" data-alt="Workshop Session">
+            <img src="/gallery/TVN02305.jpg" alt="Workshop Session" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Workshop Session</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="4" data-src="/gallery/TVN02310.jpg" data-alt="Hub Activity">
+            <img src="/gallery/TVN02310.jpg" alt="Hub Activity" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Activity</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="5" data-src="/gallery/TVN02532.jpg" data-alt="Technical Workshops">
+            <img src="/gallery/TVN02532.jpg" alt="Technical Workshops" loading="lazy">
+            <div class="gallery-overlay">
               <span>Technical Workshops</span>
             </div>
           </div>
-          <div class="media-item glass">
-            <img src="/assets/TVN02568.jpg" alt="Networking">
-            <div class="media-overlay">
+          <div class="gallery-item glass" data-index="6" data-src="/gallery/TVN02568.jpg" data-alt="Networking Nights">
+            <img src="/gallery/TVN02568.jpg" alt="Networking Nights" loading="lazy">
+            <div class="gallery-overlay">
               <span>Networking Nights</span>
             </div>
           </div>
-           <div class="media-item glass">
-            <img src="/assets/TVN02708.jpg" alt="Demo Day">
-            <div class="media-overlay">
+          <div class="gallery-item glass" data-index="7" data-src="/gallery/TVN02708.jpg" data-alt="Demo Days">
+            <img src="/gallery/TVN02708.jpg" alt="Demo Days" loading="lazy">
+            <div class="gallery-overlay">
               <span>Demo Days</span>
             </div>
           </div>
-          <div class="media-item glass">
-            <img src="/assets/1741076518017.jpeg" alt="Builders">
-            <div class="media-overlay">
+          <div class="gallery-item glass" data-index="8" data-src="/gallery/KOT09294.jpg" data-alt="Hub Space">
+            <img src="/gallery/KOT09294.jpg" alt="Hub Space" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Space</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="9" data-src="/gallery/1741076518017.jpeg" data-alt="Builders in Action">
+            <img src="/gallery/1741076518017.jpeg" alt="Builders in Action" loading="lazy">
+            <div class="gallery-overlay">
               <span>Builders in Action</span>
             </div>
           </div>
-          <div class="media-item glass">
-            <img src="/assets/494262413_1271617061633605_5026052851423093241_n.jpg" alt="Innovation">
-            <div class="media-overlay">
+          <div class="gallery-item glass" data-index="10" data-src="/gallery/494262413_1271617061633605_5026052851423093241_n.jpg" data-alt="Innovation Hub">
+            <img src="/gallery/494262413_1271617061633605_5026052851423093241_n.jpg" alt="Innovation Hub" loading="lazy">
+            <div class="gallery-overlay">
               <span>Innovation Hub</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="11" data-src="/gallery/photo_2026-01-20%2011.13.58.jpeg" data-alt="Hub Moments">
+            <img src="/gallery/photo_2026-01-20%2011.13.58.jpeg" alt="Hub Moments" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Moments</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="12" data-src="/gallery/photo_2026-01-20%2011.14.06.jpeg" data-alt="Community Gathering">
+            <img src="/gallery/photo_2026-01-20%2011.14.06.jpeg" alt="Community Gathering" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Community Gathering</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="13" data-src="/gallery/photo_2026-01-20%2011.14.13.jpeg" data-alt="Hub Activity">
+            <img src="/gallery/photo_2026-01-20%2011.14.13.jpeg" alt="Hub Activity" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Activity</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="14" data-src="/gallery/photo_2026-01-20%2011.21.20.jpeg" data-alt="Workshop">
+            <img src="/gallery/photo_2026-01-20%2011.21.20.jpeg" alt="Workshop" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Workshop</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="15" data-src="/gallery/photo_2026-01-20%2011.21.24.jpeg" data-alt="Learning Session">
+            <img src="/gallery/photo_2026-01-20%2011.21.24.jpeg" alt="Learning Session" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Learning Session</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="16" data-src="/gallery/photo_2026-01-20%2011.21.30.jpeg" data-alt="Event Photo">
+            <img src="/gallery/photo_2026-01-20%2011.21.30.jpeg" alt="Event Photo" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Event Photo</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="17" data-src="/gallery/photo_2026-01-20%2011.21.33.jpeg" data-alt="Hub Event">
+            <img src="/gallery/photo_2026-01-20%2011.21.33.jpeg" alt="Hub Event" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Event</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="18" data-src="/gallery/photo_2026-01-20%2011.21.35.jpeg" data-alt="Community Photo">
+            <img src="/gallery/photo_2026-01-20%2011.21.35.jpeg" alt="Community Photo" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Community Photo</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="19" data-src="/gallery/photo_2026-01-20%2011.21.38.jpeg" data-alt="Hub Gathering">
+            <img src="/gallery/photo_2026-01-20%2011.21.38.jpeg" alt="Hub Gathering" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Gathering</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="20" data-src="/gallery/photo_2026-01-20%2011.21.44.jpeg" data-alt="Workshop Moment">
+            <img src="/gallery/photo_2026-01-20%2011.21.44.jpeg" alt="Workshop Moment" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Workshop Moment</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="21" data-src="/gallery/photo_2026-01-20%2011.21.48.jpeg" data-alt="Event Moment">
+            <img src="/gallery/photo_2026-01-20%2011.21.48.jpeg" alt="Event Moment" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Event Moment</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="22" data-src="/gallery/photo_2026-01-20%2011.22.03.jpeg" data-alt="Hub Session">
+            <img src="/gallery/photo_2026-01-20%2011.22.03.jpeg" alt="Hub Session" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Session</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="23" data-src="/gallery/photo_2026-01-20%2011.22.05.jpeg" data-alt="Community Moment">
+            <img src="/gallery/photo_2026-01-20%2011.22.05.jpeg" alt="Community Moment" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Community Moment</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="24" data-src="/gallery/photo_2026-01-20%2011.22.08.jpeg" data-alt="Hub Event">
+            <img src="/gallery/photo_2026-01-20%2011.22.08.jpeg" alt="Hub Event" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Event</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="25" data-src="/gallery/photo_2026-01-20%2011.22.11.jpeg" data-alt="Workshop Photo">
+            <img src="/gallery/photo_2026-01-20%2011.22.11.jpeg" alt="Workshop Photo" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Workshop Photo</span>
+            </div>
+          </div>
+          <div class="gallery-item glass" data-index="26" data-src="/gallery/photo_2026-01-20%2011.22.14.jpeg" data-alt="Hub Activity">
+            <img src="/gallery/photo_2026-01-20%2011.22.14.jpeg" alt="Hub Activity" loading="lazy">
+            <div class="gallery-overlay">
+              <span>Hub Activity</span>
             </div>
           </div>
         </div>
         
-        <div class="events-footer text-center" style="margin-top: 2rem;">
-            <a href="#" class="btn btn-secondary" onclick="event.preventDefault(); alert('Full gallery coming soon!')">See Full Gallery</a>
+        <!-- Pagination Controls -->
+        <div class="gallery-pagination">
+          <button class="pagination-btn pagination-prev" aria-label="Previous page" disabled>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            Previous
+          </button>
+          <div class="pagination-info">
+            <span class="pagination-current">1</span>
+            <span class="pagination-separator">/</span>
+            <span class="pagination-total">1</span>
+          </div>
+          <button class="pagination-btn pagination-next" aria-label="Next page">
+            Next
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Lightbox Modal -->
+      <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <div class="lightbox-overlay"></div>
+        <button class="lightbox-close" aria-label="Close lightbox">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="lightbox-content">
+          <img class="lightbox-image" src="" alt="" id="lightbox-image">
+          <div class="lightbox-info">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+            <p class="lightbox-counter" id="lightbox-counter"></p>
+          </div>
         </div>
       </div>
     </section>
@@ -375,4 +546,264 @@ if (mobileBtn) {
       document.body.style.overflow = '';
     });
   });
+}
+
+// Gallery Lightbox Logic - Initialize after DOM is ready
+function initGallery() {
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImage = document.getElementById('lightbox-image');
+  const lightboxCaption = document.getElementById('lightbox-caption');
+  const lightboxCounter = document.getElementById('lightbox-counter');
+  const lightboxClose = document.querySelector('.lightbox-close');
+  const lightboxPrev = document.querySelector('.lightbox-prev');
+  const lightboxNext = document.querySelector('.lightbox-next');
+  const lightboxOverlay = document.querySelector('.lightbox-overlay');
+
+  // Pagination elements
+  const paginationPrev = document.querySelector('.pagination-prev');
+  const paginationNext = document.querySelector('.pagination-next');
+  const paginationCurrent = document.querySelector('.pagination-current');
+  const paginationTotal = document.querySelector('.pagination-total');
+
+  // Exit if essential elements are missing
+  if (!lightbox || !lightboxImage || !lightboxCaption || !lightboxCounter || galleryItems.length === 0) {
+    console.warn('Gallery elements not found');
+    return;
+  }
+
+  // Pagination settings
+  const ITEMS_PER_PAGE = 6;
+  const totalImages = galleryItems.length;
+  const totalPages = Math.ceil(totalImages / ITEMS_PER_PAGE);
+  let currentPage = 1;
+  let currentIndex = 0; // For lightbox navigation
+
+  function openLightbox(index) {
+    if (index < 0 || index >= totalImages) return;
+    
+    currentIndex = index;
+    updateLightboxImage();
+    lightbox.classList.add('active');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    
+    // Preload adjacent images
+    preloadAdjacentImages();
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function updateLightboxImage() {
+    const item = galleryItems[currentIndex];
+    if (!item) return;
+    
+    const imageSrc = item.getAttribute('data-src');
+    const imageAlt = item.getAttribute('data-alt');
+    
+    // Remove loaded class while loading
+    lightboxImage.classList.remove('loaded');
+    
+    // Set image source
+    lightboxImage.src = imageSrc;
+    lightboxImage.alt = imageAlt || '';
+    lightboxCaption.textContent = imageAlt || '';
+    lightboxCounter.textContent = `${currentIndex + 1} / ${totalImages}`;
+    
+    // Show image when loaded
+    lightboxImage.onload = () => {
+      lightboxImage.classList.add('loaded');
+    };
+    
+    // Handle load errors
+    lightboxImage.onerror = () => {
+      lightboxImage.classList.add('loaded');
+      console.error('Failed to load image:', imageSrc);
+    };
+    
+    // Show/hide navigation buttons
+    if (lightboxPrev) {
+      lightboxPrev.style.display = currentIndex === 0 ? 'none' : 'flex';
+    }
+    if (lightboxNext) {
+      lightboxNext.style.display = currentIndex === totalImages - 1 ? 'none' : 'flex';
+    }
+  }
+
+  function navigateLightbox(direction) {
+    if (direction === 'next' && currentIndex < totalImages - 1) {
+      currentIndex++;
+      updateLightboxImage();
+    } else if (direction === 'prev' && currentIndex > 0) {
+      currentIndex--;
+      updateLightboxImage();
+    }
+  }
+
+  function preloadAdjacentImages() {
+    const indicesToPreload = [];
+    if (currentIndex > 0) indicesToPreload.push(currentIndex - 1);
+    if (currentIndex < totalImages - 1) indicesToPreload.push(currentIndex + 1);
+    
+    indicesToPreload.forEach(index => {
+      const item = galleryItems[index];
+      if (item) {
+        const img = new Image();
+        img.src = item.getAttribute('data-src');
+      }
+    });
+  }
+
+  // Pagination functions
+  function updatePagination() {
+    // Update pagination info
+    if (paginationCurrent) paginationCurrent.textContent = currentPage;
+    if (paginationTotal) paginationTotal.textContent = totalPages;
+    
+    // Update button states
+    if (paginationPrev) {
+      paginationPrev.disabled = currentPage === 1;
+      paginationPrev.classList.toggle('disabled', currentPage === 1);
+    }
+    if (paginationNext) {
+      paginationNext.disabled = currentPage === totalPages;
+      paginationNext.classList.toggle('disabled', currentPage === totalPages);
+    }
+    
+    // Show/hide gallery items
+    galleryItems.forEach((item, index) => {
+      const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+      const endIndex = startIndex + ITEMS_PER_PAGE;
+      
+      if (index >= startIndex && index < endIndex) {
+        item.style.display = 'block';
+        // Add fade-in animation
+        item.style.opacity = '0';
+        setTimeout(() => {
+          item.style.opacity = '1';
+        }, 10);
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  function goToPage(page) {
+    if (page < 1 || page > totalPages) return;
+    currentPage = page;
+    updatePagination();
+  }
+
+  // Initialize pagination
+  if (paginationPrev && paginationNext) {
+    paginationPrev.addEventListener('click', () => {
+      if (currentPage > 1) {
+        goToPage(currentPage - 1);
+      }
+    });
+
+    paginationNext.addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        goToPage(currentPage + 1);
+      }
+    });
+  }
+
+  // Initialize first page
+  updatePagination();
+
+  // Open lightbox on gallery item click
+  galleryItems.forEach((item, index) => {
+    item.addEventListener('click', () => {
+      openLightbox(index);
+    });
+  });
+
+  // Close lightbox handlers
+  if (lightboxClose) {
+    lightboxClose.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeLightbox();
+    });
+  }
+
+  if (lightboxOverlay) {
+    lightboxOverlay.addEventListener('click', closeLightbox);
+  }
+
+  // Navigation handlers
+  if (lightboxPrev) {
+    lightboxPrev.addEventListener('click', (e) => {
+      e.stopPropagation();
+      navigateLightbox('prev');
+    });
+  }
+
+  if (lightboxNext) {
+    lightboxNext.addEventListener('click', (e) => {
+      e.stopPropagation();
+      navigateLightbox('next');
+    });
+  }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox || !lightbox.classList.contains('active')) return;
+    
+    switch (e.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        navigateLightbox('prev');
+        break;
+      case 'ArrowRight':
+        navigateLightbox('next');
+        break;
+    }
+  });
+
+  // Touch gestures for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  if (lightbox) {
+    lightbox.addEventListener('touchstart', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lightbox.addEventListener('touchend', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+  }
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff > 0) {
+        // Swipe left - next image
+        navigateLightbox('next');
+      } else {
+        // Swipe right - previous image
+        navigateLightbox('prev');
+      }
+    }
+  }
+}
+
+// Initialize gallery after DOM content is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initGallery);
+} else {
+  // DOM is already ready, initialize immediately
+  setTimeout(initGallery, 0);
 }
