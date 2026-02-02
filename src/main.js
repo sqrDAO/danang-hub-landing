@@ -84,7 +84,7 @@ document.querySelector('#app').innerHTML = `
            <!-- sqrDAO -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 45px;">
+               <img src="/assets/leadership/sqrdao.png" alt="sqrDAO" class="partner-logo-large" style="max-height: 45px;">
              </div>
              <div class="partner-role-text">Managing Partner</div>
              <h3 class="partner-name-premium">sqrDAO</h3>
@@ -114,7 +114,7 @@ document.querySelector('#app').innerHTML = `
            <!-- NAPA Global -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/napa.svg" alt="NAPA Global" class="partner-logo-large">
+               <img src="/assets/leadership/napa.svg" alt="NAPA Global" class="partner-logo-large">
              </div>
              <div class="partner-role-text">Founding Partner</div>
              <h3 class="partner-name-premium">NAPA Global</h3>
@@ -139,7 +139,7 @@ document.querySelector('#app').innerHTML = `
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
                  <!-- Using png as requested in previous turn -->
-               <img src="/assets/superteamvn.png" alt="Superteam Vietnam" class="partner-logo-large">
+               <img src="/assets/leadership/superteamvn.png" alt="Superteam Vietnam" class="partner-logo-large">
              </div>
              <div class="partner-role-text">Founding Partner</div>
              <h3 class="partner-name-premium">Superteam Vietnam</h3>
@@ -166,7 +166,7 @@ document.querySelector('#app').innerHTML = `
            <!-- DISSC -->
            <div class="glass partner-card-premium">
              <div class="partner-logo-large-container">
-               <img src="/assets/dissc.png" alt="DISSC" class="partner-logo-large" style="max-height: 60px;">
+               <img src="/assets/leadership/dissc.png" alt="DISSC" class="partner-logo-large" style="max-height: 60px;">
              </div>
              <div class="partner-role-text">Strategic Partner</div>
              <h3 class="partner-name-premium">DISSC</h3>
@@ -183,6 +183,29 @@ document.querySelector('#app').innerHTML = `
                </a>
                <a href="https://www.facebook.com/TrungtamDISSC/" target="_blank" aria-label="Facebook">
                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+               </a>
+             </div>
+           </div>
+
+           <!-- Punkga.me -->
+           <div class="glass partner-card-premium">
+             <div class="partner-logo-large-container">
+               <img src="/assets/leadership/punkgame.svg" alt="Punkga.me" class="partner-logo-large">
+             </div>
+             <div class="partner-role-text">Ecosystem Partner</div>
+             <h3 class="partner-name-premium">Punkga.me</h3>
+             <p class="partner-desc-premium">
+               Punkga.me is a Web3 manga platform that enables creators to publish and monetize their stories through on-chain intellectual property and NFTs. It bridges the gap between digital content and physical merchandise, offering an immersive ecosystem for artists and readers to interact within a decentralized multiverse.
+             </p>
+             <div class="partner-links-premium">
+               <a href="https://www.facebook.com/PunkgaMeManga/" target="_blank" aria-label="Facebook">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+               </a>
+               <a href="https://x.com/PunkgaMeManga" target="_blank" aria-label="Twitter">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+               </a>
+               <a href="https://www.youtube.com/@AppPunkgaMe" target="_blank" aria-label="Youtube">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
                </a>
              </div>
            </div>
