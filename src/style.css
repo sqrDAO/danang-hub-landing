@@ -198,14 +198,15 @@ button {
 
 /* Hero */
 .hero {
-  min-height: calc(100vh - var(--header-height));
+  /* Lock hero to the visible viewport (minus fixed header) */
+  height: calc(100vh - var(--header-height));
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: calc(var(--header-height) + 6rem);
-  padding-bottom: 2rem;
-  /* offset fixed header */
+  /* Offset fixed header so content starts just below it */
+  padding-top: var(--header-height);
+  padding-bottom: var(--spacing-lg);
   background: radial-gradient(circle at center, rgba(124, 58, 237, 0.15) 0%, rgba(13, 13, 18, 0) 50%);
   position: relative;
   background-clip: padding-box;
@@ -220,8 +221,8 @@ button {
 /* Adjust hero padding on desktop to account for smaller header */
 @media (min-width: 1025px) {
   .hero {
-    min-height: calc(100vh - 50px);
-    padding-top: calc(50px + 4rem);
+    height: calc(100vh - 60px);
+    padding-top: 60px;
   }
 }
 
@@ -244,23 +245,23 @@ button {
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 0;
   margin-bottom: var(--spacing-md);
   letter-spacing: -0.03em;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 .hero-subtitle {
   font-size: 1.25rem;
   color: var(--text-secondary);
   max-width: 600px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 1.5rem;
 }
 
 .hero-motto {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: 0.75rem;
   color: var(--text-primary);
   letter-spacing: 0.02em;
 }
@@ -1123,17 +1124,17 @@ textarea.form-field {
 
   /* Hero */
   .hero {
-    padding-top: calc(var(--header-height) + 6rem);
-    min-height: auto;
-    padding-bottom: var(--spacing-xl);
+    /* Maintain viewport-fit behavior on mobile while tightening spacing */
+    height: calc(100vh - var(--header-height));
+    padding-top: var(--header-height);
+    padding-bottom: var(--spacing-md);
     overflow-x: hidden;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    /* Prevent horizontal overflow explicitly */
   }
   
   .hero-container {
-    padding-top: 2rem;
+    padding-top: var(--spacing-md);
     width: 100%;
     margin-top: 0;
     display: flex;
@@ -1142,12 +1143,12 @@ textarea.form-field {
   }
 
   .hero-title {
-    font-size: clamp(2rem, 8vw, 2.5rem);
+    font-size: clamp(1.8rem, 7vw, 2.3rem);
     /* Responsive font size */
     word-wrap: break-word;
     overflow-wrap: break-word;
     /* Ensure long words break */
-    padding: 1.5rem var(--spacing-sm) 0;
+    padding: 0.75rem var(--spacing-sm) 0;
     margin-top: 0;
     margin-bottom: var(--spacing-md);
     /* Add slight padding if needed */
@@ -1162,18 +1163,21 @@ textarea.form-field {
   }
 
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 0 var(--spacing-md);
+    margin-bottom: var(--spacing-md);
   }
 
   .hero-actions {
     flex-direction: column;
-    padding: 0 var(--spacing-lg);
+    padding: 0 var(--spacing-md);
+    gap: 0.75rem;
   }
 
   .hero-actions .btn {
     width: 100%;
     text-align: center;
+    padding: 0.65rem 1.25rem;
   }
 
   .join-us-btn {
