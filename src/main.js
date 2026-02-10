@@ -209,6 +209,35 @@ document.querySelector('#app').innerHTML = `
                </a>
              </div>
            </div>
+
+           <!-- Minerva -->
+           <div class="glass partner-card-premium">
+             <div class="partner-logo-large-container">
+               <img src="/assets/leadership/minerva.png" alt="Minerva" class="partner-logo-large">
+             </div>
+             <div class="partner-role-text">Ecosystem Partner</div>
+             <h3 class="partner-name-premium">Minerva</h3>
+             <p class="partner-desc-premium">
+               A Web3 creative agency in Da Nang, Vietnam combining creativity, technology, and cross-industry brand expertise to help projects scale sustainably and build strong, community-driven brands across online and offline experiences.
+             </p>
+             <div class="partner-links-premium">
+               <a href="https://minervaweb3.com/" target="_blank" aria-label="Website">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+               </a>
+               <a href="https://x.com/MinervaWeb3" target="_blank" aria-label="Twitter">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+               </a>
+               <a href="https://www.instagram.com/minerva.web3/" target="_blank" aria-label="Instagram">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+               </a>
+               <a href="https://www.linkedin.com/company/minerva-web3/" target="_blank" aria-label="LinkedIn">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9H12.76v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+               </a>
+               <a href="mailto:minerva.web3@gmail.com" aria-label="Email">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+               </a>
+             </div>
+           </div>
         </div>
       </div>
     </section>
